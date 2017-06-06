@@ -1,17 +1,6 @@
 body {
-	background: "images/Desk.jpg" fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: url("../images/Desk.jpg") no-repeat;
 }
-
-hr {
-	size: 200 px;
-}
-
-p {
-	color: rgb(100,100,90);
-}
-
 
 /* Add a black background color to the top navigation */
 /*.topnav {
@@ -22,12 +11,11 @@ p {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: right;
-    display: block;
-    color: #f2f2f2;
+    /*display: block;*/
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 50 px;
 }
 
 /* Change the color of links on hover */
