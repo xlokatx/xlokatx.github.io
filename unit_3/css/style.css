@@ -2,9 +2,10 @@ h1, h2 {
 	color: rgb(204,90,104);
 }
 
-p {
+#subTagLine {
 	color: rgb(21,111,153);
-	text-align: right;
+	/*text-align: right;*/
+	margin-left: 300px;
 }
 
 body {
