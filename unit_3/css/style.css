@@ -10,21 +10,24 @@ h1, h2 {
 
 body {
 	font-family: arial, sans-serif;
-	/*background: url("../images/Desk.jpg");*/
-	/*background-repeat: no-repeat;
-	background-size: cover;*/
+	color: white;
 }
 
-.belowHeader {
+#deskImage {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+		url("../images/Desk2.jpeg");
+	background-repeat: no-repeat;
+}
+
+#bioSkills {
+	margin-top: 100px;
+}
+
+/*#belowHeader {
 	background: url("../images/Desk2.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-.above ul li {
-	display: inline;
-	list-style-type: none;
-}
+}*/
 
 /*#navBar {
 	width: 100%;
