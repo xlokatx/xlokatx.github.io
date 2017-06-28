@@ -1,5 +1,21 @@
+* { /*this is a css reset. the purpose of this is to reduce browser inconsistancies*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 h1, h2 {
 	color: rgb(204,90,104);
+}
+
+p {
+	line-height: 1.5em;
+	margin: 1.5em;
+}
+
+.logo {
+	width: 30%;
+	float: left;
 }
 
 #subTagLine {
@@ -13,14 +29,27 @@ body {
 	color: white;
 }
 
+ul {
+	margin: 1.5em;
+}
+
+h3, h4 {
+	margin: 1.5em;
+}
+
 #deskImage {
 	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
 		url("../images/Desk2.jpeg");
 	background-repeat: no-repeat;
+	height: 69.25vw; /*view port width, image is 69.25% of the width*/
+	/*padding-bottom: 69.25%;*/
+	background-size: 100% auto;
 }
 
-#bioSkills {
-	margin-top: 100px;
+.clear:after { /*psuedotag*/
+	content: ""; /*this turns on the psuedotag*/
+	display: block;
+	clear: both; /*this clears both left and right float*/
 }
 
 /*#belowHeader {
@@ -38,10 +67,11 @@ body {
 
 #navWrapper {
 	height: 60px;
-	width: 375px;
+	width: 292px;
+	float: right;
 	/*background: rgb(204,90,104);*/
-	margin-left: auto;
-	margin-right: 30px;
+	/*margin-left: auto;
+	margin-right: 30px;*/
 	opacity: 0.8;
 	/*filter: alpha (opacity=70); /*IE earlier*/
 }

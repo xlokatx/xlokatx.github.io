@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+* { /*this is a css reset. the purpose of this is to reduce browser inconsistancies*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+	color: rgb(111,174,178);
+
+}
+
+.navigation {
+	float: right;
+	margin-top: 10px;
+}
+
+.navigation ul li {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+}
+
+.navigation a {
+	text-decoration: none; /*this removes the line underneath the navigation link*/
+}
+
+.clear:after { /*psuedotag*/
+	content: ""; /*this turns on the psuedotag*/
+	display: block;
+	clear: both; /*this clears both left and right float for content outside of the header*/
+}
+
+body {
+	margin: 2em;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.skillsList {
+	margin-left: 5%;
+}
+
+h2 {
+	color: rgb(111,174,178);
+}
+
+h3 {
+	color: rgb(127,109,97);
+}
+
+/*
+.deskImage {
+	linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5))
+	background: url("../images/Desk.jpg");
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+*/
+
+.relative {
+	position: relative;
+	width: 600px;
+}
+
+.absolute-text {
+	position: absolute;
+	font-size: 38px;
+	bottom: 0;
+	padding: 500px 10px;
+	/*width: 100%;*/
+	/*text-align: center;*/
+}
+
+img {
+	/*opacity: .7;*/
+	filter: brightness(50%);
+	width: 1200px; 
+	/*how do I adjust this so that the size of the image will auto adjust to the size of the screen*/
+}
+
+.absolute-text a {
+	color: rgb(183,251,255);
+}
+
+
